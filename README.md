@@ -58,7 +58,7 @@ return 0;
 # RESULT:
 Thus the implementation of FIFO page replacement is successfully executed.
 
-## PAGE REPLACEMENT ALGORITHM (LRU)
+# PAGE REPLACEMENT ALGORITHM (LRU)
 # AIM:
 To write a C program to implement Page Replacement technique using LRU
 # ALGORITHM:
@@ -152,7 +152,7 @@ printf("\nThe no of page faults is %d",c);
 
 # RESULT:
 Thus the implementation of LRU page replacement is successfully executed.
-## PAGE REPLACEMENT ALGORITHM (OPR)
+# PAGE REPLACEMENT ALGORITHM (OPR)
 # AIM:
 To write a C program to implement Page Replacement technique using OPR
 # ALGORITHM:
