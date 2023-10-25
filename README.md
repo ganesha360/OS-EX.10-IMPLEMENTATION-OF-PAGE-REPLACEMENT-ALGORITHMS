@@ -72,13 +72,21 @@ Thus the implementation of FIFO page replacement is successfully executed.
 To write a C program to implement Page Replacement technique using LRU
 # ALGORITHM:
 1.Start the program
+
 2.Get the number of pages and their sequence from theuser
+
 3.Get the number of available page frames from theuser.
+
 4.In LRU replace the page that has not been used for the longest period oftime.
+
 5.Compare all frames with incoming page�6. If the incoming page is already available in page frame, set the match flag to indicate ‘no need of page replacement’.
+
 6.If the incoming page is not available in all frames, then remove the page which has not been used for the longest period oftime.
+
 7.Increment the ‘number of Page faults’ counter
+
 8.Print the number of page faults.
+
 9.Stop the program.
 # PROGRAM:
 ```python
@@ -164,14 +172,22 @@ Thus the implementation of LRU page replacement is successfully executed.
 # PAGE REPLACEMENT ALGORITHM (OPR)
 # AIM:
 To write a C program to implement Page Replacement technique using OPR
+
 # ALGORITHM:
 1.Start the program.
+
 2.Take the input of pages as an array.
-3.Look for the page allocated is present in near future, if no then replace that page in the memory with new page,
+
+3.Look for the page allocated is present in near future, if no then replace that page in the memory with new page
+
 4.If page already present increment hit, else increment miss.
+
 5.Repeat till we reach the last element of the array.
+
 6.Print the number of hits and misses.
+
 7.Stop the program.
+
 # PROGRAM:
 ```python
 #include<stdio.h>
